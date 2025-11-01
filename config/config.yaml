@@ -1,0 +1,59 @@
+# Configuration file for Energy Consumption Prediction project
+
+# Data Configuration
+data:
+  raw_path: "data/raw"
+  processed_path: "data/processed"
+  reference_path: "data/reference"
+  dataset_url: "https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.txt"
+  
+# Model Configuration
+model:
+  target_column: "Global_active_power"
+  forecast_horizon: 24  # hours ahead to predict
+  test_size: 0.2
+  validation_size: 0.1
+  random_state: 42
+  
+# Feature Engineering
+features:
+  lag_features: [1, 2, 3, 24, 48, 72]  # hours to lag
+  rolling_windows: [24, 168]  # 24h and weekly rolling stats
+  time_features: ["hour", "day_of_week", "month", "is_weekend"]
+  
+# Model Parameters
+models:
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 5
+  linear:
+    alpha: 1.0
+    
+# MLOps Configuration
+mlops:
+  drift_threshold: 0.1  # 10% drift threshold
+  performance_threshold: 0.05  # 5% performance degradation
+  retrain_frequency: "daily"  # retrain frequency
+  reference_window_days: 30  # days for reference dataset
+  
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+  
+# MLflow Configuration
+mlflow:
+  experiment_name: "energy_consumption_prediction"
+  tracking_uri: "file:./mlruns"
+  
+# EvidentlyAI Configuration
+evidently:
+  report_path: "reports"
+  dashboard_path: "reports/dashboard"

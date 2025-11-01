@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-10-28T17:34:05.726527",
+  "drift_detected": true,
+  "drift_score": 1.0,
+  "recommendation": "High drift detected (48.1% of features). Immediate model retraining recommended.",
+  "reference_samples": 1905,
+  "current_samples": 977
+}

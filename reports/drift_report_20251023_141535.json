@@ -1,0 +1,223 @@
+{
+  "overall_drift_score": 1.0,
+  "feature_drifts": {
+    "hour_sin": {
+      "ks_statistic": 0.0018061830951667354,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 442028.0,
+      "mw_pvalue": 0.9956581085682177,
+      "mean_difference": 0.0005728338821802632,
+      "drift_detected": false
+    },
+    "Global_active_power_lag_3h": {
+      "ks_statistic": 0.18747660274716263,
+      "ks_pvalue": 6.414139269302638e-15,
+      "mw_statistic": 336952.0,
+      "mw_pvalue": 4.412820704262454e-19,
+      "mean_difference": 0.44253398416859524,
+      "drift_detected": true
+    },
+    "day_sin": {
+      "ks_statistic": 0.03516797955179063,
+      "ks_pvalue": 0.5893872632908209,
+      "mw_statistic": 423886.0,
+      "mw_pvalue": 0.11832702858006351,
+      "mean_difference": 0.07376368631899478,
+      "drift_detected": false
+    },
+    "Global_active_power_rolling_mean_24h": {
+      "ks_statistic": 0.6242788556693453,
+      "ks_pvalue": 4.959387001037928e-172,
+      "mw_statistic": 216366.0,
+      "mw_pvalue": 7.463765800807642e-82,
+      "mean_difference": 0.7897184525536386,
+      "drift_detected": true
+    },
+    "hour": {
+      "ks_statistic": 0.0024508445630722075,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 441394.0,
+      "mw_pvalue": 0.9527053301478353,
+      "mean_difference": 0.0027749858302778467,
+      "drift_detected": false
+    },
+    "Global_active_power_lag_1h": {
+      "ks_statistic": 0.19061734817939685,
+      "ks_pvalue": 2.0687365680550772e-15,
+      "mw_statistic": 336322.0,
+      "mw_pvalue": 2.717833081633582e-19,
+      "mean_difference": 0.4450005732160352,
+      "drift_detected": true
+    },
+    "Global_reactive_power": {
+      "ks_statistic": 0.006614000463703863,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 444007.5,
+      "mw_pvalue": 0.8708838191245692,
+      "mean_difference": 0.007543637497728812,
+      "drift_detected": false
+    },
+    "is_weekend": {
+      "ks_statistic": 0.023452105611382234,
+      "ks_pvalue": 0.9508514296093695,
+      "mw_statistic": 452460.5,
+      "mw_pvalue": 0.27017217940548177,
+      "mean_difference": 0.050321261539452655,
+      "drift_detected": false
+    },
+    "day_cos": {
+      "ks_statistic": 0.013869269440218959,
+      "ks_pvalue": 0.9999772856444671,
+      "mw_statistic": 438349.0,
+      "mw_pvalue": 0.7481346438378803,
+      "mean_difference": 0.0011812778141172128,
+      "drift_detected": false
+    },
+    "Global_intensity": {
+      "ks_statistic": 0.15029320786939385,
+      "ks_pvalue": 9.865246439182394e-10,
+      "mw_statistic": 354978.0,
+      "mw_pvalue": 1.4061909669932173e-13,
+      "mean_difference": 0.37774911004033884,
+      "drift_detected": true
+    },
+    "month": {
+      "ks_statistic": 1.0,
+      "ks_pvalue": 0.0,
+      "mw_statistic": 0.0,
+      "mw_pvalue": 0.0,
+      "mean_difference": 18.968645428417858,
+      "drift_detected": true
+    },
+    "Global_active_power_rolling_std_24h": {
+      "ks_statistic": 0.39229233701091965,
+      "ks_pvalue": 4.569438473402288e-65,
+      "mw_statistic": 287849.0,
+      "mw_pvalue": 3.525339221686784e-39,
+      "mean_difference": 0.40663935934338225,
+      "drift_detected": true
+    },
+    "Sub_metering_1": {
+      "ks_statistic": 0.016105226847322674,
+      "ks_pvalue": 0.9995090783944407,
+      "mw_statistic": 437654.5,
+      "mw_pvalue": 0.7063728289134514,
+      "mean_difference": 0.018265865837214176,
+      "drift_detected": false
+    },
+    "is_night": {
+      "ks_statistic": 0.001996188580444138,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 441210.0,
+      "mw_pvalue": 0.9289091829173365,
+      "mean_difference": 0.0041195178518962546,
+      "drift_detected": false
+    },
+    "Global_active_power_rolling_std_168h": {
+      "ks_statistic": 0.9617218116118234,
+      "ks_pvalue": 0.0,
+      "mw_statistic": 15311.0,
+      "mw_pvalue": 1.8708007748440705e-287,
+      "mean_difference": 4.894325759528153,
+      "drift_detected": true
+    },
+    "target": {
+      "ks_statistic": 0.1773689895214237,
+      "ks_pvalue": 2.149028687211604e-13,
+      "mw_statistic": 344076.0,
+      "mw_pvalue": 8.700812778556173e-17,
+      "mean_difference": 0.41332986777566894,
+      "drift_detected": true
+    },
+    "quarter": {
+      "ks_statistic": 1.0,
+      "ks_pvalue": 0.0,
+      "mw_statistic": 0.0,
+      "mw_pvalue": 0.0,
+      "mean_difference": 0.0,
+      "drift_detected": true
+    },
+    "is_work_hours": {
+      "ks_statistic": 0.0021794081555330616,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 443056.0,
+      "mw_pvalue": 0.9223568102805045,
+      "mean_difference": 0.0044950066138826125,
+      "drift_detected": false
+    },
+    "Global_active_power_lag_2h": {
+      "ks_statistic": 0.1885001442005915,
+      "ks_pvalue": 4.445152343912641e-15,
+      "mw_statistic": 336747.0,
+      "mw_pvalue": 3.7701370492212026e-19,
+      "mean_difference": 0.44343731447089013,
+      "drift_detected": true
+    },
+    "Sub_metering_2": {
+      "ks_statistic": 0.005855109507625666,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 444751.5,
+      "mw_pvalue": 0.8214350919718743,
+      "mean_difference": 0.010299046185013778,
+      "drift_detected": false
+    },
+    "Voltage": {
+      "ks_statistic": 0.006524652646222227,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 442743.5,
+      "mw_pvalue": 0.9559586403562323,
+      "mean_difference": 0.00497543652190876,
+      "drift_detected": false
+    },
+    "Sub_metering_3": {
+      "ks_statistic": 0.007289198527457489,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 441101.5,
+      "mw_pvalue": 0.9329842293983822,
+      "mean_difference": 0.003905448613836378,
+      "drift_detected": false
+    },
+    "Global_active_power_lag_24h": {
+      "ks_statistic": 0.19155945871056396,
+      "ks_pvalue": 1.4677465707912711e-15,
+      "mw_statistic": 337296.0,
+      "mw_pvalue": 5.742938187071291e-19,
+      "mean_difference": 0.44252753323418764,
+      "drift_detected": true
+    },
+    "Global_active_power_rolling_mean_168h": {
+      "ks_statistic": 0.940971629240487,
+      "ks_pvalue": 0.0,
+      "mw_statistic": 18153.0,
+      "mw_pvalue": 1.145353420760969e-283,
+      "mean_difference": 8.378013032863825,
+      "drift_detected": true
+    },
+    "year": {
+      "ks_statistic": 1.0,
+      "ks_pvalue": 0.0,
+      "mw_statistic": 0.0,
+      "mw_pvalue": 0.0,
+      "mean_difference": 0.0,
+      "drift_detected": true
+    },
+    "day_of_week": {
+      "ks_statistic": 0.03117673337593377,
+      "ks_pvalue": 0.7343977419055507,
+      "mw_statistic": 454188.0,
+      "mw_pvalue": 0.2994604037296066,
+      "mean_difference": 0.048045516063225935,
+      "drift_detected": false
+    },
+    "hour_cos": {
+      "ks_statistic": 0.0022608390777948055,
+      "ks_pvalue": 1.0,
+      "mw_statistic": 440964.0,
+      "mw_pvalue": 0.9236091765088377,
+      "mean_difference": 0.0047415785055970674,
+      "drift_detected": false
+    }
+  },
+  "drift_detected_features": 13,
+  "total_features": 27
+}

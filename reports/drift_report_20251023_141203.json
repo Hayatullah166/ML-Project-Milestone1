@@ -1,0 +1,10 @@
+{
+  "overall_drift_score": 1.0,
+  "feature_drifts": {
+    "Global_active_power_rolling_std_168h": {
+      "ks_statistic": 0.9617218116118234,
+      "ks_pvalue": 0.0,
+      "mw_statistic": 15311.0,
+      "mw_pvalue": 1.8708007748440705e-287,
+      "mean_difference": 4.894325759528153,
+      "drift_detected": 
